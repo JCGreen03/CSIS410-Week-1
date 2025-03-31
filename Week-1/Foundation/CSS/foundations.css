@@ -1,0 +1,38 @@
+body{
+    background-color: beige;
+    min-height: 500px;
+}
+
+.navbar {
+    background-color: black;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    color: white;
+    list-style-type: none;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+a:hover{
+    color:rgb(0, 102, 255);
+}
+
+.bottombar{
+    position:fixed;
+    bottom:0;
+    color:black;
+    overflow:hidden;
+    width:100%;
+}
+
+.homeimg{
+    padding: 5px;
+    width: 600px;
+    height: 300px;
+}
